@@ -1,0 +1,24 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício de eventos</title>
+</head>
+<body>
+    <div id="area" onmouseout="saiu()" onmouseenter=" entrou()" )>
+        Interagindo
+        </div>        
+</body>
+<script>
+    var elemento = document.getElementById('area')
+    elemento.addEventListener('click', clicou)
+    function saiu(){
+        elemento.innerText = "saiu"
+    }
+    function entrou(){
+        elemento.innerText = "entrou"
+    }
+    function clicou(){
+        elemento.style.background = "red"
+    }
+</script>
+</html>
