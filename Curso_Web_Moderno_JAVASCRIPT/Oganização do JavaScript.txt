@@ -1,0 +1,5 @@
+Comunidade JS Muito ativa.
+
+O  javascript é organizado em **sentenças** e **blocos** de códigos.
+
+
