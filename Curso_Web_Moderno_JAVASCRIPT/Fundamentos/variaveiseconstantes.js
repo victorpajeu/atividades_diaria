@@ -1,33 +1,20 @@
-var a = 3
-let b = 4
+var a = 3 // Lembrando que o var é só difere na questão do escopo do Let.
+let b = 55 // Relanbrando que uma variável com o let não pode ser redeclarada .
+const contante = "Constante" // Não pode ser redeclarada ou modificada 
 
-a = 30 // pode redeclarar uma variável em um mesmo arquivo
-b = 40
 
-console.log(a,b)
+console.log(a, b)
 
-const c = 50
-//c = 80
+a = 123
+b = 314
 
-let a1 = 1000
-console.log(a1)
+console.log(a, b)
 
-let qualquer = 'legal'
 
-console.log(qualquer)
+var q = 123456789
 
-console.log(typeof qualquer)
+console.log(typeof q)
 
-qualquer = 10000000
+var q = 123.56
 
-console.log(qualquer)
-
-console.log(typeof(qualquer))
-
-// evitar nomes genéricos para variáveis e constantes.
-
-let valor = ''
-let numero = 1
-let pqp = false //produto quimico perigoso.
-
-console.log(pqp)
+console.log(typeof q)
