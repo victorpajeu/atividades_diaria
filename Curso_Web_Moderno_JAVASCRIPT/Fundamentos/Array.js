@@ -34,4 +34,4 @@ array.pop()
 
 console.log(array)
 
-delete.array[2]
+
