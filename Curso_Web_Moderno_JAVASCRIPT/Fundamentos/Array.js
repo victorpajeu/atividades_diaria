@@ -1,16 +1,37 @@
-var lista = []
+// Trabalhando com Array
+const array = [12, 1.2, "ola"]
 
-lista[0] = 'Ola mundo '
+console.log(array[1], array[2])
+console.log(array.length)
 
-console.log(lista[0])
-console.log(typeof lista)
+array.push('ola mundo')
 
-const lista2 = [6.4, 9.8, 10]
 
-lista2.push('ola')
+// Comando JavaScript para add itens na lista
+// ÉÉÉééééÉÉÉÉÉééé o push 
 
-lista2.push({objet: 1000})
-lista2.push({test:  'ola'})
+array.push(1)
+array.push(2)
+array.push(3)
+array.push(4)
+array.push(10)
+console.log(array.length)
 
-console.log(lista2)
+array.push('Fim de inserção de elementos no Array com o PUSH  do JavaScript')
 
+console.log(`Quantidades de itens na lista: ${array.length}`) // Não é uma boa prática misturar os tipos em um array
+
+console.log(array)
+
+array.pop()
+
+console.log(array)
+
+array.pop()
+
+console.log(array)
+array.pop()
+
+console.log(array)
+
+delete.array[2]
