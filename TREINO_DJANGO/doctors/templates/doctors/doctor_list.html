@@ -13,7 +13,7 @@
 
 {% for doctor in doctors %}
 <ul>
-    <li>{{doctor.name}}</li>
+    <li>{{doctor.name}}| <a href="{% url 'doctor_update' doctor.pk %}">Editar</a></li>
 </ul>
 {% endfor %}
 
