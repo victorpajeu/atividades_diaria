@@ -1,4 +1,5 @@
 <!doctype html>
+{% load widget_tweaks %}
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -9,6 +10,13 @@
 </head>
 <body>
 
+<h1>Criação de Doutores</h1>
+<form method="post">
+    {% render_field form.name %}
+    {% render_field form.age %}
+    {% render_field form.crm %}
+    <button type="submit">Salvar</button>
+</form>
 <h1>Lista de Doutores</h1>
 
 
