@@ -22,5 +22,5 @@ urlpatterns = [
     path('', ListDoctor.as_view(), name='list'),
     path('create/', CreateDoctor.as_view(), name='create'),
     path('update/<int:pk>', DoctorUpdate.as_view(), name='doctor_update'),
-    path('delete/<int:pk>', DoctorDelete.as_view(), name='delete'),
+    path('delete/<int:pk>', DoctorDelete.as_view(), name='doctor-delete'),
 ]
