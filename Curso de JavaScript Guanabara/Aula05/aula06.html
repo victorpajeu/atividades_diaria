@@ -6,6 +6,12 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Entendendo o DOM</h1>
+    <p>Entendendo o DOM</p>
+
+    <script>
+        //window.document.write('Ola mundo')
+        var p1 = window.document.getElementsByTagName('p')[0]
+        window.alert('Resultado: '+ p1.innerText)
+    </script>
 </body>
 </html>
