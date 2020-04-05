@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #area {
+            height: 200px;
+            width: 200px;
+            text-align: center;
+            background-color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <div id="area" onclick="mudar()">
+        Click aqui para mudar o texto!!
+    </div>
+<script>
+    function mudar(){
+        var a = window.document.getElementById('area')
+        a.innerText='Mudouuuuuuu'
+    }
+</script>
+</body>
+
+</html>
