@@ -14,13 +14,19 @@
     </style>
 </head>
 <body>
-    <div id="area" onclick="mudar()">
+    <div id="area" onclick="mudar()" onmouseenter="entrar()"  onmouseout="sair()">
         Click aqui para mudar o texto!!
     </div>
 <script>
+    var a = window.document.getElementById('area')
     function mudar(){
-        var a = window.document.getElementById('area')
-        a.innerText='Mudouuuuuuu'
+        a.innerText='Clicouuuuu'
+    }
+    function sair(){
+        a.innerText = 'Saiuuuuuu'
+    }
+    function entrar(){
+        a.innerText = 'Entrou'
     }
 </script>
 </body>
