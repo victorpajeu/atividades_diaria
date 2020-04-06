@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soma de valores</title>
+</head>
+<body>
+
+<input type="text" id="txt1">
+<input type="text" id="txt2">
+<h2 id="result"></h2>
+<a type="botton" onclick="calc()">Ola mundo</a>
+    
+<script>
+    function calc(){
+        var txt1 = window.document.getElementById('txt1')
+        var txt2 = window.document.getElementById('txt2')
+        var result = window.document.getElementById('result')
+        var a = Number.parseFloat(txt1.value)
+        var b = Number.parseFloat(txt2.value)
+        var s = a + b
+        result.innerText=`O resultado é: ${s} `
+    }
+</script>
+</body>
+</html>
